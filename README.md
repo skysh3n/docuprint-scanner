@@ -12,6 +12,10 @@
 
 </div>
 
+> **在找这些？** Mac 扫描仪驱动 · 扫描仪驱动装不了 · 网络扫描仪怎么连 Mac ·
+> 怎么把打印机扫描到 Mac · 一体机扫描到电脑 · 扫描件存哪里 ·
+> 富士施乐扫描 · 富士施乐 CM115 扫描 · DocuPrint 扫描 · WSD 扫描
+>
 > **Search keywords:** DocuPrint scanner for Mac · FUJI XEROX CM115 / CM118 w ·
 > Fuji Xerox network scanner · WSD scan to Mac · Mac scanner driver ·
 > 扫描仪驱动 · 网络扫描仪 · 富士施乐扫描 · 富士施乐 CM115 扫描
@@ -237,7 +241,7 @@ App 内点「输入激活码…」：
 </details>
 
 <details>
-<summary><b>Mac 怎么把扫描仪 / 打印机扫描到电脑？</b></summary>
+<summary><b>Mac 怎么把扫描仪 / 打印机扫描到电脑？网络扫描仪怎么连 Mac？</b></summary>
 
 用这个 App：打开后自动搜局域网里的 WSD 扫描仪，选中、点「开始扫描」，
 图片直接落到 `~/Scans`。不需要装任何厂商驱动。
@@ -245,7 +249,7 @@ App 内点「输入激活码…」：
 </details>
 
 <details>
-<summary><b>为什么不直接装苹果官方驱动？为什么官方驱动扫不出来？</b></summary>
+<summary><b>为什么装苹果官方驱动 / 扫描仪驱动也扫不出来？</b></summary>
 
 装了也没用。这类机器的扫描走的是 **WSD（WS-Scan）** 协议，
 而 Apple 早年支持的是 **AirScan（eSCL）**——两者不通用。
@@ -267,7 +271,7 @@ App 内点「输入激活码…」：
 </details>
 
 <details>
-<summary><b>扫描能设什么？</b></summary>
+<summary><b>扫描能设什么？支持哪些 dpi 和格式？</b></summary>
 
 - **分辨率**：200 / 300 / 400 / 600 dpi
 - **颜色**：彩色 / 灰度
@@ -283,7 +287,7 @@ App 内点「输入激活码…」：
 </details>
 
 <details>
-<summary><b>扫出来的文件在哪？</b></summary>
+<summary><b>扫出来的 JPG / PDF 文件存在哪？</b></summary>
 
 扫完预览图可以直接**拖到桌面或任意文件夹**，也可以在 App 里存到指定位置。
 </details>
