@@ -150,13 +150,17 @@ built-in macOS apps.*
 
 | 版本 | 文件 | 说明 |
 |:--|:--|:--|
-| **v3.8（推荐）** | [**OneClickScan-3.8.pkg**](https://github.com/skysh3n/docuprint-scanner/releases/download/v3.8/OneClickScan-3.8.pkg) ← 16.6 MB | 安装包，双击即可安装 |
+| **v3.9（推荐）** | [**OneClickScan-3.9.pkg**](https://github.com/skysh3n/docuprint-scanner/releases/download/v3.9/OneClickScan-3.9.pkg) ← 17.4 MB | 当前版本 |
+| v3.8 | [OneClickScan-3.8.pkg](https://github.com/skysh3n/docuprint-scanner/releases/download/v3.8/OneClickScan-3.8.pkg) |旧版，已停止维护 |
 
 </div>
 
+> **老用户请直接装 v3.9**：3.8 及更早版本的授权校验存在安全问题，
+> 旧版本请不要再继续使用。
+
 **安装步骤**
 
-1. 下载 `OneClickScan-3.8.pkg`
+1. 下载 `OneClickScan-3.9.pkg`
 2. 双击打开，按提示完成安装
 3. 在 **应用程序** 里找到「一键扫描」
 4. 首次打开若提示「无法验证开发者」，右键点 App → **打开** → 确认打开
