@@ -1,10 +1,10 @@
 <div align="center">
 
-# 一键扫描 for Mac — 富士施乐 DocuPrint CM115/CM118 w 网络一体机扫描工具
+# 一键扫描 for Mac — FUJI XEROX DocuPrint CM115/CM118 w 网络扫描仪 WSD 扫描工具
 
 **FUJI XEROX DocuPrint 在 Mac 上扫不出来？装这个就行。**
 
-<img src="docs/app-icon.png" width="96" alt="App 图标">
+<img src="docs/app-icon.png" width="96" alt="一键扫描 App 图标">
 
 [![macOS](https://img.shields.io/badge/macOS-11%2B-0071e3?style=flat-square)](https://www.apple.com/macos/)
 
@@ -12,13 +12,34 @@
 
 </div>
 
+> **Search keywords:** DocuPrint scanner for Mac · FUJI XEROX CM115 / CM118 w ·
+> Fuji Xerox network scanner · WSD scan to Mac · Mac scanner driver ·
+> 扫描仪驱动 · 网络扫描仪 · 富士施乐扫描 · 富士施乐 CM115 扫描
+
 ---
 
 ## 🎯 适用机型
 
 **FUJI XEROX（富士施乐）DocuPrint CM115 / CM118 w** —— 这类 **WSD 网络多功能一体机 / 网络扫描仪**。
 
-搜索关键词：DocuPrint 扫描 · 富士施乐扫描 · CM115 扫描 · CM118 扫描 · Mac 扫描仪驱动 · WSD 扫描 · 网络一体机扫描到 Mac
+搜索关键词：DocuPrint 扫描 · 富士施乐扫描 · CM115 扫描 · CM118 扫描 · Mac 扫描仪驱动 · WSD 扫描 · 网络一体机扫描到 Mac · 扫描到 Mac · Mac 扫描仪 · 打印机扫描 · 网络打印机扫描到 Mac
+
+<details>
+<summary><b>English</b></summary>
+
+**For FUJI XEROX DocuPrint CM115 / CM118 w and other WSD network multifunction printers.**
+
+These machines scan over **WSD (Web Services on Devices)** and do **not** support
+AirScan / eSCL. Apple's official drivers stopped being updated, so the printer
+prints and copies fine but **cannot scan to a Mac**.
+
+One Click Scan drives the printer directly with the standard **WS-Scan** protocol —
+**no vendor driver required**. Works on any Mac 11 or later.
+
+*Not for AirScan/eSCL printers or USB-only printers — those already work with
+built-in macOS apps.*
+
+</details>
 
 ### 为什么 Mac 官方驱动扫不了
 
@@ -102,14 +123,14 @@
 
 **主界面** — 搜设备、选 dpi 与色彩、开始扫描
 
-<img src="docs/一键扫描-界面.png" alt="主界面">
+<img src="docs/一键扫描-界面.png" alt="一键扫描主界面：已自动搜到 DocuPrint CM115/118 w">
 
 </td>
 <td width="50%" valign="top" align="center">
 
 **购买授权** — 免费次数用完后的自助开通
 
-<img src="docs/一键扫描-授权窗口.png" alt="授权窗口">
+<img src="docs/一键扫描-授权窗口.png" alt="一键扫描授权窗口：自助开通与激活码输入">
 
 </td>
 </tr>
@@ -125,7 +146,7 @@
 
 | 版本 | 文件 | 说明 |
 |:--|:--|:--|
-| **v3.8（推荐）** | [**OneClickScan-3.8.pkg**](https://github.com/skysh3n/docuprint-dist/releases/download/v3.8/OneClickScan-3.8.pkg) ← 16.6 MB | 安装包，双击即可安装 |
+| **v3.8（推荐）** | [**OneClickScan-3.8.pkg**](https://github.com/skysh3n/docuprint-scanner/releases/download/v3.8/OneClickScan-3.8.pkg) ← 16.6 MB | 安装包，双击即可安装 |
 
 </div>
 
@@ -212,11 +233,19 @@ App 内点「输入激活码…」：
 搜不到的话 App 里的「自检」会告诉你卡在哪一环（权限 / 网络 / 协议）。
 
 > 富士施乐的其他型号（DocuPrint M 系列、P 系列等）也可以试——
-> 只要是走 WSD 协议的都能用。**不行的话告诉我你的型号，我给你弄通。**
+> 只要是走 WSD 协议的都能用。
 </details>
 
 <details>
-<summary><b>为什么不直接装苹果官方驱动？</b></summary>
+<summary><b>Mac 怎么把扫描仪 / 打印机扫描到电脑？</b></summary>
+
+用这个 App：打开后自动搜局域网里的 WSD 扫描仪，选中、点「开始扫描」，
+图片直接落到 `~/Scans`。不需要装任何厂商驱动。
+
+</details>
+
+<details>
+<summary><b>为什么不直接装苹果官方驱动？为什么官方驱动扫不出来？</b></summary>
 
 装了也没用。这类机器的扫描走的是 **WSD（WS-Scan）** 协议，
 而 Apple 早年支持的是 **AirScan（eSCL）**——两者不通用。
