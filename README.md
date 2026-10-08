@@ -7,7 +7,6 @@
 <img src="docs/app-icon.png" width="96" alt="App 图标">
 
 [![macOS](https://img.shields.io/badge/macOS-11%2B-0071e3?style=flat-square)](https://www.apple.com/macos/)
-[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
 [为什么需要它](#-为什么需要它) · [下载安装](#-下载安装) · [使用说明](#-使用说明) · [授权](#-授权) · [FAQ](#-faq)
 
@@ -264,24 +263,19 @@ App 内点「输入激活码…」：
 
 ## 📄 说明
 
-本仓库的**扫描脚本**（`app/wsdscan.py`）以 MIT 协议开放 ——
-想自己接WS-Scan 协议折腾的可以直接拿去用。
+本仓库只放**宣传材料与安装包**，不含 App 源码 ——
+想自己折腾 WSD/WS-Scan 协议扫描的，可以自己按协议写一个，
+协议本身是开放标准，网上有的是参考资料。
 
-安装包为商业用途，不在开源范围内。
+安装包为商业用途。
 
 ## 📞 联系
 
 机器认不出来、或者扫描出不来（设备固件不同差别挺大），直接找我。
 那属于我的适配范围，我给你弄通。
 
-<div align="center">
-
-**⭐ 如果它让你的 DocuPrint 又能扫了，给个 Star 也很实在 ⭐**
-
-</div>
-
 ---
 
 <p align="center">
-  <sub>MIT License · © 2026 <a href="https://github.com/skysh3n">skysh3n</a></sub>
+  <sub>© 2026 <a href="https://github.com/skysh3n">skysh3n</a></sub>
 </p>
